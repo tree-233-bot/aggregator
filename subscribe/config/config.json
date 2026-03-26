@@ -1,0 +1,84 @@
+{
+    "domains": [],
+    "crawl": {
+        "enable": true,
+        "exclude": "",
+        "threshold": 5,
+        "singlelink": true,
+        "persist": {
+            "subs": "crawledsubs",
+            "proxies": "crawledproxies"
+        },
+        "config": {
+            "rename": "",
+            "include": "",
+            "exclude": ""
+        },
+        "telegram": {
+            "enable": true,
+            "pages": 5,
+            "exclude": "",
+            "users": {
+                "channel": {
+                    "include": "",
+                    "exclude": "",
+                    "push_to": ["free"]
+                }
+            }
+        },
+        "google": {
+            "enable": false
+        },
+        "yandex": {
+            "enable": false
+        },
+        "github": {
+            "enable": true,
+            "pages": 2,
+            "push_to": ["free"],
+            "exclude": "",
+            "spams": []
+        },
+        "twitter": {
+            "enable": false
+        },
+        "repositories": [],
+        "pages": [],
+        "scripts": []
+    },
+    "groups": {
+        "free": {
+            "emoji": true,
+            "list": true,
+            "targets": {
+                "singbox": "free-singbox"
+            },
+            "regularize": {
+                "enable": true,
+                "locate": true,
+                "residential": true,
+                "bits": 2
+            }
+        }
+    },
+    "storage": {
+        "engine": "gist",
+        "items": {
+            "free-singbox": {
+                "username": "tree-233-bot",
+                "gistid": "cc1c4a819c46bb9a551f84fd041971aa",
+                "filename": "singbox.json"
+            },
+            "crawledsubs": {
+                "username": "tree-233-bot",
+                "gistid": "cc1c4a819c46bb9a551f84fd041971aa",
+                "filename": "__subscribes.txt"
+            },
+            "crawledproxies": {
+                "username": "tree-233-bot",
+                "gistid": "cc1c4a819c46bb9a551f84fd041971aa",
+                "filename": "__proxies.txt"
+            }
+        }
+    }
+}
