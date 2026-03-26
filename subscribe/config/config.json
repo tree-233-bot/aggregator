@@ -51,7 +51,8 @@
             "emoji": true,
             "list": true,
             "targets": {
-                "singbox": "free-singbox"
+                "singbox": "free-singbox",
+                "v2ray": "free-v2ray"
             },
             "regularize": {
                 "enable": true,
@@ -68,6 +69,11 @@
                 "username": "tree-233-bot",
                 "gistid": "cc1c4a819c46bb9a551f84fd041971aa",
                 "filename": "singbox.json"
+            },
+            "free-v2ray": {
+                "username": "tree-233-bot",
+                "gistid": "cc1c4a819c46bb9a551f84fd041971aa",
+                "filename": "v2ray.txt"
             },
             "crawledsubs": {
                 "username": "tree-233-bot",
